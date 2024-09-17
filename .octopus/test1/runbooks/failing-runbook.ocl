@@ -17,7 +17,7 @@ process {
         action {
             action_type = "Octopus.Script"
             properties = {
-                Octopus.Action.Script.ScriptBody = "echo \"Hello\" # This is the wrong language"
+                Octopus.Action.Script.ScriptBody = "echo \"Hello # This is the wrong language"
                 Octopus.Action.Script.ScriptSource = "Inline"
                 Octopus.Action.Script.Syntax = "PowerShell"
             }
