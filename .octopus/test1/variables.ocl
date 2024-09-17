@@ -1,0 +1,10 @@
+variable "Name" {
+    value "Cloud 1" {
+        machine = ["cloud-1"]
+    }
+
+    value "Cloud 2" {
+        description = ""
+        machine = ["cloud-02"]
+    }
+}
